@@ -2,10 +2,6 @@
 
 # [Open Graph Image as a Service](https://og-image.vercel.app)
 
-<a href="https://twitter.com/vercel">
-    <img align="right" src="https://og-image.vercel.app/tweet.png" height="300" />
-</a>
-
 Serverless service that generates dynamic Open Graph images that you can embed in your `<meta>` tags.
 
 For each keystroke, headless chromium is used to render an HTML page and take a screenshot of the result which gets cached.

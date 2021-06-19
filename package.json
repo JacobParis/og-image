@@ -7,9 +7,11 @@
     "build": "tsc -p api/tsconfig.json && tsc -p web/tsconfig.json"
   },
   "dependencies": {
+    "canvas": "^2.8.0",
     "chrome-aws-lambda": "7.0.0",
     "marked": "2.0.0",
     "puppeteer-core": "7.0.0",
+    "trianglify": "^4.1.1",
     "twemoji": "13.0.1"
   },
   "devDependencies": {
